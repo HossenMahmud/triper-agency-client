@@ -1,0 +1,73 @@
+.banner-bg{
+    background-image: url('../../../images/banner-1-1-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+}
+.banner-info h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.banner-info h1 span{
+    color:#21AB64;
+}
+.offer{
+    background-color: rgba(0, 0, 0, 0.493);
+    padding:80px 0px;
+    border-radius:100%;
+}
+.offer-btn{
+    border: 1px solid white;
+    background-color: white;
+    color:#21AB64;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+.offer-btn:hover{
+    background-color:#21AB64;
+    border: 1px solid #21AB64;
+    color: white;
+}
+
+@media only screen and (max-width:576px) {
+    .banner-info h1{
+        font-size: 28px;
+        margin-left: 0px;
+    }
+    .banner-bg{
+        padding: 100px 0px;
+    }
+    .offer{
+        margin-top: 50px;
+        border-radius:20px;
+        padding:20px 0px;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:767px) {
+    .banner-info h1{
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    .banner-bg{
+        padding: 100px 0px;
+    }
+    .offer{
+        margin-top: 50px;
+        border-radius:20px;
+        padding:20px 0px;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:1200px) {
+    .offer{
+        margin-top: 50px;
+        border-radius:20px;
+        padding:20px 0px;
+    }
+}

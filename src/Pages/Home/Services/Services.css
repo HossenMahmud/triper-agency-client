@@ -1,0 +1,29 @@
+.service-item{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.service-item p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #08263F;
+}
+
+
+.icon span i{
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.ic2 span i{
+    background-color:blue;
+}
+.ic3 span i{
+    background-color:brown;
+}
+.ic4 span i{
+    background-color:green;
+}

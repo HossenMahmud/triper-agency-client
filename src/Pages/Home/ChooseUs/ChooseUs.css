@@ -1,0 +1,34 @@
+.choose-us-title h1{
+    color: #333333;
+    font-weight: bold;
+}
+.choose-us-title h5{
+    color: #21AB64;
+    font-weight: bold;
+}
+
+.choose-icon i {
+    background: transparent;
+    border: 1px solid #21AB64;
+    border-radius: 4px;
+    color: #21AB64;
+    font-size: 29px;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+}
+.chooseUs-item{
+    border:1px solid green;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width:991px) {
+    .chooseUs-info{
+        margin-top: 50px;
+    }
+}
