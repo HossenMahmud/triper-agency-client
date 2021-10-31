@@ -4,7 +4,7 @@ import './Packages.css';
 const Packages = () => {
     const [tourPackage, setTourPackage] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/packages')
+        fetch('https://bloodcurdling-labyrinth-04330.herokuapp.com/packages')
             .then(res => res.json())
             .then(data => setTourPackage(data))
     }, []);

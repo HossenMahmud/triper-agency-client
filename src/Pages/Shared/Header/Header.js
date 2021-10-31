@@ -21,13 +21,13 @@ const Header = () => {
                                 <Link to="/home" className="nav-link text-black">Home</Link>
 
                                 {
-                                    user?.email && <Link to="/addpackage" className="nav-link text-black">Add-Package</Link>
+                                    user?.email && <Link to="/addpackage" className="nav-link text-black">AddPackage</Link>
                                 }
                                 {
-                                    user?.email && <Link to="/allOrders" className="nav-link text-black">All-Orders</Link>
+                                    user?.email && <Link to="/allOrders" className="nav-link text-black">ManageOrder</Link>
                                 }
                                 {
-                                    user?.email && <Link to="/myorder" className="nav-link text-black">My-Order</Link>
+                                    user?.email && <Link to="/myorder" className="nav-link text-black">MyOrder</Link>
                                 }
 
                                 {

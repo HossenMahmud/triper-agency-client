@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 const AddPackage = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = (data, e) => {
-        fetch("http://localhost:5000/addpackage", {
+        fetch("https://bloodcurdling-labyrinth-04330.herokuapp.com/addpackage", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),

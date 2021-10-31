@@ -8,20 +8,19 @@ import useAuth from '../../Hooks/useAuth';
 
 const PackageDetails = () => {
     const { user } = useAuth();
-    const { register, setValue, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
 
     const [tourPackage, setTourPackage] = useState([]);
     const { id } = useParams();
 
     useEffect(() => {
-        fetch(`http://localhost:5000/package/${id}`)
+        fetch(`https://bloodcurdling-labyrinth-04330.herokuapp.com/package/${id}`)
             .then(res => res.json())
             .then(data => setTourPackage(data))
     }, []);
 
-
     const onSubmit = (data, e) => {
-        fetch("http://localhost:5000/orderpackage", {
+        fetch("https://bloodcurdling-labyrinth-04330.herokuapp.com/orderpackage", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),
