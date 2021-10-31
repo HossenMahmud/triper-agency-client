@@ -28,8 +28,8 @@ const Login = () => {
                                 <h3>Member Login</h3>
                             </div>
                             <div className="login-button mt-3">
-                                <button onClick={signInUsingGoogle} className='login-google-button me-3'><i class="fab fa-google"></i> Sing In Google</button>
-                                {/* <button onClick={signInUsingGithub} className='login-github-button'><i class="fab fa-github"></i> Sing In GitHub</button> */}
+                                <button onClick={signInUsingGoogle} className='login-google-button me-3'><i className="fab fa-google"></i> Sing In Google</button>
+                                {/* <button onClick={signInUsingGithub} className='login-github-button'><i className="fab fa-github"></i> Sing In GitHub</button> */}
                             </div>
                         </div>
                     </div>

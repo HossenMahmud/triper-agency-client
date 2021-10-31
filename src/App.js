@@ -10,6 +10,7 @@ import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import NotFound from './Pages/NotFound/NotFound';
 import AddPackage from './Pages/AddPackage/AddPackage';
 import AllOrders from './Pages/AllOrders/AllOrders';
+import MyOrders from './Pages/MyOrders/MyOrders';
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/package/:id">
               <PackageDetails></PackageDetails>
+            </PrivateRoute>
+            <PrivateRoute path="/myorder">
+              <MyOrders></MyOrders>
             </PrivateRoute>
             <Route path='/login'>
               <Login></Login>

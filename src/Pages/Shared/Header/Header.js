@@ -26,6 +26,9 @@ const Header = () => {
                                 {
                                     user?.email && <Link to="/allOrders" className="nav-link text-black">All-Orders</Link>
                                 }
+                                {
+                                    user?.email && <Link to="/myorder" className="nav-link text-black">My-Order</Link>
+                                }
 
                                 {
                                     user ? <span className='mt-2 text-warning'> {user.displayName} </span> : (<span></span>)

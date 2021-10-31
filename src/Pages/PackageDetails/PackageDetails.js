@@ -96,7 +96,7 @@ const PackageDetails = () => {
                         <div className="col-lg-4">
                             <div className="book-now-form">
                                 <form className="form-item" onSubmit={handleSubmit(onSubmit)}>
-                                    <h4>Submit To Oder</h4>
+                                    <h4>Submit To Order</h4>
                                     <input defaultValue={user?.displayName} type="text" {...register("name", { required: true })} /> <br />
                                     <input defaultValue={user?.email} type="email" {...register("email", { required: true })} /> <br />
                                     <input defaultValue={tourPackage?.country} type="text" {...register("tourCountry", { required: true })} /> <br />
@@ -104,7 +104,7 @@ const PackageDetails = () => {
                                     <input type="text" {...register("address", { required: true })} placeholder="Address" /> <br />
                                     <input type="date" {...register("date", { required: true })} placeholder="Date" /> <br />
                                     {errors.exampleRequired && <span>This field is required</span>}
-                                    <input className="btn btn-success mt-3" type="submit" />
+                                    <input className="btn btn-success mt-3" type="submit" value='Booking Now' />
                                 </form>
                             </div>
                             {/* Package Order Part End */}

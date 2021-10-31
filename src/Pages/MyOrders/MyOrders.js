@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import './AllOrders.css';
-const AllOrders = () => {
+import useAuth from '../../Hooks/useAuth';
+import './MyOrders.css';
+const MyOrders = () => {
+    const { user } = useAuth();
     const [orders, setOrders] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/orders')
+        fetch(`http://localhost:5000/order/${user?.email}`)
             .then(res => res.json())
             .then(data => setOrders(data))
-    }, []);
+    }, [user?.email]);
 
     // Order Delete Function
     const handleDelete = (id) => {
@@ -29,13 +31,14 @@ const AllOrders = () => {
         else {
             alert('Delete Canceled')
         }
+
     };
 
     return (
         <div>
             <div className="container my-5">
                 <div className="orders-title">
-                    <h2 className='fw-bold'>ALL ORDER PACKAGE</h2>
+                    <h2 className='fw-bold'>MY ORDERS</h2>
                 </div>
                 <div className="row">
                     <div className=" table-responsive table-responsive-sm table-responsive-md">
@@ -55,7 +58,7 @@ const AllOrders = () => {
                             <tbody>
                                 {
                                     orders.map((order, index) => (
-                                        <tr>
+                                        <tr key={order._id}>
                                             <td>{index}</td>
                                             <td>{order.name}</td>
                                             <td>{order.email}</td>
@@ -69,7 +72,6 @@ const AllOrders = () => {
                                         </tr>
                                     ))
                                 }
-
                             </tbody>
                         </table>
                     </div>
@@ -79,4 +81,4 @@ const AllOrders = () => {
     );
 };
 
-export default AllOrders;
+export default MyOrders;
