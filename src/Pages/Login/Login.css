@@ -1,0 +1,67 @@
+.login-bg{
+    background-color: #ECF0F1 ;
+    padding: 100px 0px;
+}
+.login{
+    padding: 15px;
+    background-color: white;
+    box-shadow: rgba(132, 218, 170, 0.2) 0px 8px 24px;
+}
+.login-header{
+    border-bottom: 1px dotted #111;
+}
+.login-header h3{
+    color:#111;
+    font-family: fantasy;
+}
+
+.login-google-button{
+    background-color: tomato;
+    border: 1px solid tomato;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.login-github-button{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.login-google-button i{
+	color: #fff;
+    background-color: tomato;
+	font-size: 18px;
+    margin: 0px;
+}
+.login-github-button i{
+	color: #fff;
+    background-color: black;
+	font-size: 18px;
+    margin: 0px;
+}
+
+@media only screen and (max-width:576px) {
+    .login{
+        padding:15px 4px;
+    }
+    
+}
+@media only screen and (max-width:360px) {
+    .login-google-button{
+        padding:3px 5px;
+    }
+    .login-github-button{
+        padding:3px 5px;
+    }
+    
+    .login-google-button i{
+        font-size: 14px;
+    }
+    .login-github-button i{
+        font-size: 14px;
+    }
+    
+}

@@ -1,0 +1,36 @@
+.package-details-bg{
+    background-image: url('../../images/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0px;
+}
+.package-details-title h1{
+    color: white;
+    font-weight: bold;
+}
+.packageDetails-price{
+    color: #21AB64;
+}
+.packageDetail-info p{
+    color: #111;
+    font-family: sans-serif;
+}
+.gallery h2{
+    color:#21AB64;
+}
+
+.book-now-form{
+    padding: 15px;
+    background-color: #21AB64;
+}
+
+.form-item input,textarea{
+    width:80%;
+    margin-bottom: 10px;
+}
+
+.form-item h4{
+    font-weight: bold;
+    font-family: fantasy;
+}

@@ -20,7 +20,7 @@ const ChooseUs = () => {
                             <div className="col-lg-6 mb-4 col-sm-6">
                                 <div className="chooseUs-item">
                                     <div className="choose-icon mb-3">
-                                        <i class="fas fa-archive"></i>
+                                        <i className="fas fa-archive"></i>
                                     </div>
                                     <h3>Exclusive Packages</h3>
                                     <p>Our misson is to provide the best traveling services for our beloved customers</p>
@@ -29,7 +29,7 @@ const ChooseUs = () => {
                             <div className="col-lg-6 mb-3  col-sm-6">
                                 <div className="chooseUs-item">
                                     <div className="choose-icon mb-3">
-                                        <i class="fas fa-globe-americas"></i>
+                                        <i className="fas fa-globe-americas"></i>
                                     </div>
                                     <h3>World Class Service</h3>
                                     <p>Our misson is to provide the best traveling services for our beloved customers</p>
@@ -38,7 +38,7 @@ const ChooseUs = () => {
                             <div className="col-lg-6 mb-3  col-sm-6">
                                 <div className="chooseUs-item">
                                     <div className="choose-icon mb-3">
-                                        <i class="fas fa-user-tie"></i>
+                                        <i className="fas fa-user-tie"></i>
                                     </div>
                                     <h3>Best Travel Guide</h3>
                                     <p>Our misson is to provide the best traveling services for our beloved customers</p>
@@ -47,7 +47,7 @@ const ChooseUs = () => {
                             <div className="col-lg-6 mb-3  col-sm-6">
                                 <div className="chooseUs-item">
                                     <div className="choose-icon mb-3">
-                                        <i class="fas fa-lock"></i>
+                                        <i className="fas fa-lock"></i>
                                     </div>
                                     <h3>100% Secure</h3>
                                     <p>Our misson is to provide the best traveling services for our beloved customers</p>

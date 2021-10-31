@@ -68,6 +68,7 @@ const Footer = () => {
                                     <div className="col-4">
                                         <img className='img-fluid' src={'https://i.ibb.co/1nnhjQg/img9.jpg'} alt="" />
                                     </div>
+
                                 </div>
                             </div>
                         </div>
